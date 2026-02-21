@@ -30,7 +30,7 @@ class Program
         double discountAmount = totalPrice * discount / 100;
         double finalPrice = totalPrice - discountAmount + delivery*distance;
 
-        Console.WriteLine("Total price: " + ,totalPrice.GetType());
+        Console.WriteLine("Total price: " + totalPrice.GetType());
         Console.WriteLine("Discount amount: " + discountAmount.GetType());
         Console.WriteLine("Final price after discount: " + finalPrice.GetType());
     }
