@@ -17,7 +17,7 @@ class Program
         Console.Write("Discount Percentage: ");
         double discount = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Delivery: ");
+        Console.Write("Delivery : ");
         double delivery = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Distance in km: ");
@@ -30,8 +30,8 @@ class Program
         double discountAmount = totalPrice * discount / 100;
         double finalPrice = totalPrice - discountAmount + delivery*distance;
 
-        Console.WriteLine("Total price: " + totalPrice);
-        Console.WriteLine("Discount amount: " + discountAmount);
-        Console.WriteLine("Final price after discount: " + finalPrice);
+        Console.WriteLine("Total price: " + ,totalPrice.GetType());
+        Console.WriteLine("Discount amount: " + discountAmount.GetType());
+        Console.WriteLine("Final price after discount: " + finalPrice.GetType());
     }
 }
